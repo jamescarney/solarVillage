@@ -57,10 +57,8 @@ Centered Text / Layover
   margin-top: -100px;
   position: absolute;
   text-align: center;
-  top: 50%;
-  width: 100%;
-  background: rgba(63, 63, 63, 0.4);
-  background-size: cover; }
+  top: 40%;
+  width: 100%; }
 
 .wrap {
   top: 70%;
