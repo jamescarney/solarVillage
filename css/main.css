@@ -31,17 +31,36 @@ a:hover {
   .btn-primary:hover, .btn-primary:focus {
     background: #d0d0d0; }
 
+/******************************************************************************
+Footer
+******************************************************************************/
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5; }
+  background-color: rgba(245, 245, 245, 0.9); }
   .footer a {
     color: #333; }
     .footer a:hover {
       color: #555; }
+
+.socialIcons {
+  padding: 0 50px; }
+
+/******************************************************************************
+Centered Text / Layover
+******************************************************************************/
+.textCenteredPage {
+  left: 0;
+  line-height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  background: rgba(63, 63, 63, 0.4);
+  background-size: cover; }
 
 .wrap {
   top: 70%;

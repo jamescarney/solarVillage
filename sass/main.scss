@@ -57,21 +57,49 @@ a:hover {
 
 
 
+
+/******************************************************************************
+Footer
+******************************************************************************/
+
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+//  height: 60px;
+  background-color: rgba(#f5f5f5, .9);
   
   a {
     color: #333;
     &:hover {
       color: #555;
     }
-  }
-  
+  } 
+}
+
+.socialIcons {
+  padding: 0 50px;
+}
+
+
+
+/******************************************************************************
+Centered Text / Layover
+******************************************************************************/
+
+
+.textCenteredPage {
+  left: 0;
+    line-height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  background: rgba($background, .4);
+  background-size: cover;
 }
 
 .wrap {
@@ -136,3 +164,6 @@ a:hover {
         float: right;
     }
 }
+
+
+
