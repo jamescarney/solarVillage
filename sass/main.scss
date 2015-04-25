@@ -15,7 +15,7 @@ body {
   
   /* Background Image for Coverpage */
   
-  background: url(../img/solarPanel.jpg) no-repeat center center fixed;
+  background: url(../img/group.jpg) no-repeat center center fixed;
   background-size: cover;
   position: static;
   
@@ -36,6 +36,14 @@ h1, h2, p, h3, a {
   color: #eee;
 }
 
+h1 {
+  font-size: 4.5em;
+}
+
+.lead {
+  font-size: 2.5em;
+}
+
 a:hover {
   text-decoration: none;
   color: #ccc;
@@ -53,6 +61,10 @@ a:hover {
   &:hover, &:focus {
     background: darken(#ddd, 5%);
   }
+}
+
+.textShadow {
+  text-shadow: 5px 3px 3px #333;  
 }
 
 
