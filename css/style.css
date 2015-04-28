@@ -5,3 +5,27 @@ html {
   color: #eee;
   background: url(../img/lightBulb.jpg) no-repeat center center fixed;
   background-size: cover; }
+  .first h1 {
+    margin: 250px auto;
+    font-weight: 200; }
+
+.youHelp {
+  padding-top: 50px; }
+
+.whatWeDid {
+  background: url(../img/solarPanel.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white; }
+
+/******************************************************************************
+DONATE
+******************************************************************************/
+.donate {
+  margin: 0 auto;
+  width: 30%; }
+
+.donateNav {
+  background: tomato; }
+  .donateNava {
+    background: tomato;
+    color: white; }
