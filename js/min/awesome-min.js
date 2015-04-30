@@ -1,1 +1,1 @@
-$("#icon").addClass("animate rotateOut");
+$("#icon").addClass("animate rotateOut"),$(".donationButton").click(function(){var t=$(this).text();$(".donationAmount").html(t)});

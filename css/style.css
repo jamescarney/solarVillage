@@ -32,3 +32,8 @@ DONATE
   .donateNava {
     background: tomato;
     color: white; }
+
+.donationPromise {
+  background: url(../img/fan.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 400px; }
