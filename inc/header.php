@@ -31,13 +31,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="about.php">About <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Press</a></li>
-        <li><a href="blog.php">Blog</a></li>
+        <li><a href="blog.html">Blog</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="donateNav"><a href="donate.php">Donate</a></li>
+        <li class="donateNav"><a href="donate.html">Donate</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
