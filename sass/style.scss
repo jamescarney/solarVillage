@@ -38,11 +38,8 @@ DONATE
 }
 
 .donateNav {
-  background: tomato;
-  &a {
-    background: tomato;
-    color: white;
-  }
+  background: orange;
+  color: white;
 }
 
 .donationPromise {
@@ -54,6 +51,13 @@ DONATE
 
 .donationButton {
   margin-top: 30px;
+}
+
+.otherDonation {
+  text-decoration: underline;
+  &:hover {
+    
+  }
 }
 
 /******************************************************************************

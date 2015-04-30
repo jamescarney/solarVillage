@@ -28,10 +28,8 @@ DONATE
   width: 30%; }
 
 .donateNav {
-  background: tomato; }
-  .donateNava {
-    background: tomato;
-    color: white; }
+  background: orange;
+  color: white; }
 
 .donationPromise {
   background: url(../img/fan.jpg) no-repeat center center fixed;
@@ -41,6 +39,9 @@ DONATE
 
 .donationButton {
   margin-top: 30px; }
+
+.otherDonation {
+  text-decoration: underline; }
 
 /******************************************************************************
 Buttons
