@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>About | Solar Village Project</title>
-  
-  <!-- Core Style -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
-  <!-- Personal Style -->
-  <link rel="stylesheet" href="css/style.css">
-  
-  
-</head>
-<body>
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Solar Village</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="donateNav"><a href="donate.html">Donate</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
+<?php include('inc/header.php'); ?>
  
  
  <div class="wrap">
@@ -108,26 +65,5 @@
       </div>
       
     
-  </div>
-  <footer class="footer">
-  <ul class="list-inline text-center">
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Donate</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Press</a></li>
-    <li><a href="#">Thanks</a></li>
-  </ul>
-  <p class="text-muted text-center socialIcons"><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>       <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></p>
-  <p class="text-muted text-center">Copyright &copy; 2015 | The Solar Village Project</p>
-</footer>
- </div> <!-- /wrap -->
- 
- <!-- /JS -->
- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
- <script src="bower_components/jquery/dist/jquery.min.js"></script>
- 
- <script src="js/min/awesome-min.js"></script>
-  
-</body>
-</html>
+  </div> <!-- /solution -->
+  <?php include('inc/footer.php'); ?>
