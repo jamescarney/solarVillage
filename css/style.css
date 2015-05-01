@@ -1,6 +1,50 @@
+/******************************************************************************
+COLORS
+******************************************************************************/
 html {
   padding-top: 70px; }
 
+/**************************************
+GENERIC STYLING
+**************************************/
+body {
+  background: #FDF3E7; }
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #3B3738; }
+
+.btn-info {
+  background: #7E8F7C;
+  border-color: #71826f; }
+  .btn-info:hover {
+    background: #71826f; }
+
+.btn-success {
+  background: #C63D0F;
+  border-color: #ae360d; }
+  .btn-success:hover {
+    background: #ae360d; }
+
+footer {
+  background: #3B3738;
+  padding-top: 20px;
+  padding-bottom: 15px; }
+  footer p, footer a {
+    color: #FDF3E7; }
+
+.socialIcons {
+  background: #2e2b2b; }
+
+/**************************************
+NAV BAR
+**************************************/
+.navbar {
+  border-bottom-color: #3B3738;
+  box-shadow: 0 3px 5px #3B3738; }
+
+/******************************************************************************
+ABOUT
+******************************************************************************/
 .first {
   color: #eee;
   background: url(../img/lightBulb.jpg) no-repeat center center fixed;
@@ -9,16 +53,18 @@ html {
     margin: 250px auto;
     font-weight: 200; }
 
-.youHelp {
-  padding-top: 50px; }
-
 .hope {
   background: url(../img/solarPanel.jpg) no-repeat center center fixed;
-  background-size: cover;
-  color: white; }
+  background-size: cover; }
+  .hope h2 {
+    color: #FDF3E7;
+    margin: 100px auto; }
 
 .hope {
   padding-top: 75px; }
+
+.youHelp {
+  padding-top: 50px; }
 
 /******************************************************************************
 DONATE
@@ -28,14 +74,16 @@ DONATE
   width: 30%; }
 
 .donateNav {
-  background: orange;
-  color: white; }
+  color: white;
+  background: #C63D0F; }
+  .donateNav a {
+    color: white; }
 
 .donationPromise {
   background: url(../img/fan.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 400px;
-  color: white; }
+  color: #FDF3E7; }
 
 .donationButton {
   margin-top: 30px; }
@@ -48,3 +96,17 @@ Buttons
 ******************************************************************************/
 .actionButton {
   margin-top: 15px; }
+
+/******************************************************************************
+FOOTER
+******************************************************************************/
+footer {
+  margin-top: 15px; }
+
+.footerLinks {
+  font-size: 1.25em; }
+  .footerLinks a {
+    color: #FDF3E7; }
+    .footerLinks a:hover {
+      color: #7d7577;
+      text-decoration: none; }

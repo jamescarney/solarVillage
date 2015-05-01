@@ -1,6 +1,80 @@
+/******************************************************************************
+COLORS
+******************************************************************************/
+
+
+
+$red: #C63D0F;
+$dark: #3B3738;
+$white: #FDF3E7;
+$darkgreen: #7E8F7C;
+
+
+
 html {
-  padding-top: 70px;
+  padding-top: 70px; //needed for fixed nav
 }
+
+
+/**************************************
+GENERIC STYLING
+**************************************/
+
+
+
+body {
+  background: $white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: $dark;
+}
+
+.btn-info {
+  background: $darkgreen;
+  border-color: darken($darkgreen, 5%);
+  &:hover {
+    background: darken($darkgreen, 5%);
+  }
+}
+
+.btn-success {
+  background: $red;
+  border-color: darken($red, 5%);
+  &:hover {
+    background: darken($red, 5%);
+  }
+}
+
+footer {
+  background: $dark;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  p,a {
+    color: $white;
+  }
+}
+
+.socialIcons {
+  background: darken($dark, 5%);
+}
+
+/**************************************
+NAV BAR
+**************************************/
+
+.navbar {
+
+  border-bottom-color: $dark;
+  box-shadow: 0 3px 5px $dark; //Gives dept to page.
+}
+
+
+/******************************************************************************
+ABOUT
+******************************************************************************/
+
+
 
 .first {
   color: #eee;
@@ -12,19 +86,22 @@ html {
   }
 }
 
-.youHelp {
-  padding-top: 50px;
-}
-
 .hope {
   background: url(../img/solarPanel.jpg) no-repeat center center fixed;
   background-size: cover;
   
-  color: white;
+  h2 {
+    color: $white;
+    margin: 100px auto;
+  }
 }
 
 .hope {
   padding-top: 75px;
+}
+
+.youHelp {
+  padding-top: 50px;
 }
 
 
@@ -32,21 +109,27 @@ html {
 /******************************************************************************
 DONATE
 ******************************************************************************/
+
+
+
 .donate {
   margin: 0 auto;
   width: 30%;
 }
 
 .donateNav {
-  background: orange;
   color: white;
+  background: $red;
+  a {
+    color: white;
+  }
 }
 
 .donationPromise {
   background: url(../img/fan.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 400px;
-  color: white;
+  color: $white;
 }
 
 .donationButton {
@@ -60,10 +143,38 @@ DONATE
   }
 }
 
+
+
 /******************************************************************************
 Buttons
 ******************************************************************************/
 
+
+
 .actionButton {
   margin-top: 15px;
+}
+
+
+
+/******************************************************************************
+FOOTER
+******************************************************************************/
+
+
+
+footer {
+  margin-top: 15px;
+}
+
+.footerLinks {
+
+    font-size: 1.25em;
+    a {
+      color: $white;
+      &:hover {
+        color: lighten($dark, 25%);
+        text-decoration: none;
+      }
+    }
 }
