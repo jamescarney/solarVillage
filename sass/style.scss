@@ -77,12 +77,12 @@ ABOUT
 
 
 .first {
-  color: #eee;
   background: url(../img/lightBulb.jpg) no-repeat center center fixed;
   background-size: cover;
   h1 {
     margin: 250px auto;
     font-weight: 200;
+    color: $white;
   }
 }
 
@@ -102,6 +102,13 @@ ABOUT
 
 .youHelp {
   padding-top: 50px;
+  a {
+    margin-top: 10px;
+  }
+}
+
+.solution {
+  margin: 50px 0;
 }
 
 
@@ -178,3 +185,5 @@ footer {
       }
     }
 }
+
+
