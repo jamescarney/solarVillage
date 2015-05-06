@@ -91,14 +91,22 @@ DONATE
 .donationPromise {
   background: url(../img/fan.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 400px;
-  color: #FDF3E7; }
+  height: 400px; }
+  .donationPromise h1 {
+    color: #FDF3E7;
+    padding-top: 100px; }
 
 .donationButton {
   margin-top: 30px; }
 
 .otherDonation {
   text-decoration: underline; }
+
+.callToAction {
+  margin: 150px auto; }
+
+.donationInfo {
+  margin-bottom: 150px; }
 
 /******************************************************************************
 Buttons
