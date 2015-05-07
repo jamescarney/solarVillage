@@ -54,7 +54,7 @@
  </div> <!-- /donationPromise -->
 <div class="container">
  <div class="callToAction">
-   <h3 class="text-center">I'm giving <span class="donationAmount"></span>.</h3>
+   <h2 class="text-center">I'm giving <span class="donationAmount">____________</span>.</h2>
    <div class="row">
      <div class="col-sm-6 col-md-3">
        <button class="btn btn-default btn-lg btn-block donationButton">$45</button>
@@ -73,13 +73,16 @@
        <button class="btn btn-success btn-lg btn-block actionButton">Donate Now</button>
        <br>
        <div class="row">
-       	<div class="col-sm-6">
-					<h4 class="text-center infoLink"><a href="#" class="text-muted">Other ways to help</a></h4>
+       	<div class="col-sm-6 text-center">
+       	<!-- Button Trigger Modal -->
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#volunteerModal">
+						Other ways to help.
+					</button>
        	</div>
-       	<div class="col-sm-6">
+       	<div class="col-sm-6 text-center">
 					<!-- <h4 class="text-center infoLink"><a href="#" class="text-muted">What your Donation Does</a></h4> -->
 					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
 						What your donation does.
 					</button>
        	</div>
@@ -87,8 +90,31 @@
      </div> <!-- /col-md-6 /col-md-offset-3 -->
    </div> <!-- /row -->
 
+<!-- Modal Volunteer Information -->
+<div class="modal fade" id="volunteerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">What your Donation Covers</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Ways to Volunteer!</h3>
+        <h4>Our Needs:</h4>
+        <ul>
+        	<li>Money</li>
+        	<li>Ambassador</li>
+        	<li>Take a trip, give light</li>
+        </ul>
+      </div> <!-- /modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- /modal -->
 
-<!-- Modal -->
+<!-- Modal More Donation -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -109,26 +135,34 @@
       </div>
     </div>
   </div>
-</div>
+</div> <!-- /modal -->
+
+
+<!-- Modal Money Info -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">What your Donation Covers</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Your Donation of $45 will:</h4>
+        <p class="lead">Give a household the opportunity to have clean energy and clean lights. Something they've never been able to have before.</p>
+        <h4>Your donation of $100 will:</h4>
+        <p class="lead">Have double effect. You'll be able to change two household's lives.</p>
+        <h4>Your donation of $700:</h4>
+        <p class="lead">Give power to a school. Giving children the opportunity to learn and create a better future for themselves.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- /modal -->
 
    
  </div> <!-- /callToAction -->
- <div class="donationInfo">
-   <div class="row">
-     <div class="col-md-4 col-sm-6 text-center">
-       <h3>Your donation of $45 will:</h3>
-       <p class="lead">Give a household the opportunity to have clean energy and clean lights. Something they've never been able to do.</p>
-     </div>
-     <div class="col-md-4 col-sm-6 text-center">
-       <h3>Your donation of $100 will:</h3>
-       <p class="lead">Have double effect. You'll be able to change two household's lives.</p>
-     </div>
-     <div class="col-md-4 col-sm-6 text-center">
-       <h3>Your donation of $700 will:</h3>
-       <p class="lead">Give power to a school. Giving children the opportunity to have a better future. </p>
-     </div>
-   </div>
- </div> <!-- /donationInfo -->
  </div> <!-- /conatiner -->
  
  
