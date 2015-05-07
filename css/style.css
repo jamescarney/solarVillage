@@ -96,6 +96,9 @@ DONATE
     color: white;
     padding-top: 100px; }
 
+.infoLink {
+  text-decoration: underline; }
+
 .donationButton {
   margin-top: 30px; }
 
